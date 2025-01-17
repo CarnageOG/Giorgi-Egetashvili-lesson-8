@@ -2,3 +2,65 @@
 	margin: 0;
 	padding: 0;
 }
+.container{
+  max-width: 1980px;
+  width: 80%;
+  margin: auto;
+}
+.logo{
+	width: 97px;
+	height: 55px;
+}
+header{
+	background-color: #0A22F4;
+}
+ul{
+	list-style: none;
+}
+nav a{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.contact-nav{
+	width: 160px;
+	height: 55px;
+	background-color: #FFFFFF;
+}
+.div-nav-a{
+	color: #171717;
+}
+.font {
+	font-size: 32px;
+	font-weight: bold;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: blue; 
+}
+
+.light-blue {
+  background-color: lightblue;
+}
+.cube{
+	width: 70px;
+	height: 70px;
+	background-color: #F9F9F9;
+}
+.cube-blue{
+	width: 70px;
+	height: 70px;
+	background-color: #0A22F4;
+}
+.article-font-h2{
+	font-size: 22px;
+	font-weight: bold;
+}
+.article-font-p{
+	font-size: 16px;
+}
