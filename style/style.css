@@ -3,8 +3,8 @@
 	padding: 0;
 }
 .container{
-  max-width: 1980px;
-  width: 80%;
+  max-width: 2800px;
+  width: 92%;
   margin: auto;
 }
 .logo{
@@ -87,9 +87,9 @@ nav a{
 .div-nav-a{
 	position: absolute;
 	padding-top: 18px;
-  	padding-right: 43px;
-  	padding-bottom: 18px;
-  	padding-left: 36px;
+  padding-right: 43px;
+  padding-bottom: 18px;
+  padding-left: 36px;
 	color: #171717;
 }
 .size{
@@ -100,6 +100,7 @@ nav a{
 .layout	{
 	display: flex;
 	gap: 20px;
+	justify-content: flex-start;
 }
 .underline::after {
   content: '';
