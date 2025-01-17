@@ -14,21 +14,10 @@
 header{
 	background-color: #0A22F4;
 }
-ul{
-	list-style: none;
-}
 nav a{
 	font-size: 16px;
 	color: #FFFFFF;
 	text-decoration: none;
-}
-.contact-nav{
-	width: 160px;
-	height: 55px;
-	background-color: #FFFFFF;
-}
-.div-nav-a{
-	color: #171717;
 }
 .font {
 	font-size: 32px;
@@ -47,6 +36,15 @@ nav a{
 .light-blue {
   background-color: lightblue;
 }
+.dots-div {
+	display: flex;
+	gap: 20px;
+}
+.layout-servises-dots{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .cube{
 	width: 70px;
 	height: 70px;
@@ -63,4 +61,34 @@ nav a{
 }
 .article-font-p{
 	font-size: 16px;
+}
+.header-wrapper, nav ul{
+	list-style: none;
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.contact-nav{
+	position: revert;
+	width: 160px;
+	height: 55px;
+	background-color: #FFFFFF;
+}
+.div-nav-a{
+	position: absolute;
+	padding-top: 18px;
+  	padding-right: 43px;
+  	padding-bottom: 18px;
+  	padding-left: 36px;
+	color: #171717;
+}
+.size{
+	width: 463px;
+	height: 235px;
+}
+.layout	{
+	display: flex;
+	gap: 20px;
 }
